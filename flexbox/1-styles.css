@@ -319,10 +319,6 @@
   .section {
     padding: var(--section-padding);
   }
-
-  .section-services{
-    
-  }
   
   .section-header {
     text-align: var(--section-header-align);
