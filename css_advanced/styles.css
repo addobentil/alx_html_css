@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+}
+
+.inner{
+    background: radial-gradient(85.90% 85.90% at 50.00% 14.10%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000000cc;
+background-blend-mode: normal, color;
+width: 100vw;
+min-height: 100vh;
+}
+
+/* -------  header  -------- */
+.nav_container{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_container a{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* -------  section1  ------- */
+.hero_container{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px 0px;
+}
+
+.hero_title{
+    color: #FFF;
+text-align: center;
+font-size: 65px;
+font-weight: 700;
+/* line-height: normal; */
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.flex span{
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.hero_button{
+    width: 142px;
+    color: #fff;
+height: 34px;
+border-radius: 22px;
+background: #C271FF;
+}
+
+.hero_one{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px; */
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar p{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.avatar span{
+    color: #FFF;
+text-align: center;
+font-size: 10px;
+font-style: italic;
+font-weight: 400;
+/* line-height: 1px; */
+}
+
+.pink{
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.sub_title{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.avatar span{
+    font-size: 12px;
+}
+
+.avatar .date{
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* -------  section2  ------- */
+.section_2{
+    background-color: #C271FF;
+    color: #fff;
+}
+.body{
+   padding: 60px 120px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.content img{
+    border-radius: 100%;
+}
+
+.desc_1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.desc_1_text{
+    font-weight: 300;
+}
+
+.desc_2_name{
+    font-weight: 700;
+}
+
+.desc_2_title{
+    font-weight: 300;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* -------  section3  ------- */
+
+.section_three_body{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_three_body p{
+    font-size: 16px;
+}
+
+.section_three_content{
+    /* width: 1228px; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px 50px;
+}
+
+.tutorial{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tutorial p{
+    font-size: 12px;
+    color: #D8D8D8
+}
+
+.tutorial h4{
+    font-size: 13px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+}
+
+/* .tut_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.tut_img{
+    background-image: url(./assets/tutorial1.png);
+    background-position: center;
+    background-size: cover;
+    width: 255px;
+height: 154px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.tut_img img{
+}
+
+.img span{
+    font-size: 12px;
+    display: flex;
+    color: #C271FF;
+    align-items: center;
+    text-align: center;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings span{
+    font-size: 12px;
+    color: #C271FF;
+}
+
+.tut_content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section_four{
+    background-color: #071629;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.section_four_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_four_content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_four_items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.membership span{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.sec4_button{
+    cursor: pointer;
+    padding: 20px;
+    color: #fff;
+height: 34px;
+border-radius: 22px;
+background: #C271FF;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.section_five_content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 110px;
+}
+
+.section_five_title p{
+    font-size: 36px;
+}
+
+.section_five_faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.section_five_faq1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section_five_faq1 p{
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.section_five_faq{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+
+/* FOOTER */
+.footer_section{
+    background: #071629;
+    height: 249px;
+    /* display: flex;
+       justify-content: center;
+       align-items: center;  */
+       
+   }
+   
+   .footer_body{
+       /* display: flex;
+       justify-content: center;
+       align-items: center; */
+   }
+   
+   .footer_content{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 80px 80px;
+   }
+   
+   .footer_text{
+       text-align: center;
+       color: #fff;
+       font-size: 12px;
+       opacity: 0.3516787588596344;
+   }
